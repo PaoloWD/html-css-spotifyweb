@@ -159,6 +159,29 @@ hr {
 .bottom-container button {
   border: none;
   background-color: transparent;
+  color: var(--small-color-text);
+}
+
+.bottom-container .banner-c button {
+  border: none;
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+.bottom-container .banner-c .row:first-child {
+  padding-top: 0;
+}
+
+.bottom-container .banner-c .row:last-child {
+  padding: 0;
+}
+
+.bottom-container .container {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  padding: 0;
 }
 
 .categories {
@@ -199,4 +222,39 @@ hr {
 
 .align-center {
   align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.p-dx-sx-1 {
+  padding: 0 1rem;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.white-bar {
+  width: 25%;
+  border: 1px solid var(--text-color);
+}
+
+.gray-bar {
+  width: 75%;
+  border: 1px solid var(--small-color-text);
+  display: inline-block;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
 }
