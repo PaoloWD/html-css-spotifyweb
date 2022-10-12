@@ -15,6 +15,10 @@
 
 a {
   text-decoration: none;
+  color: var(--small-color-text);
+}
+
+.side-elements:hover {
   color: var(--text-color);
 }
 
@@ -147,6 +151,10 @@ hr {
   padding: 1rem 0.5rem;
 }
 
+button {
+  cursor: pointer;
+}
+
 .section-container button {
   border: none;
   background-color: transparent;
@@ -261,4 +269,33 @@ hr {
 
 .grow-2 {
   flex-grow: 2;
+}
+
+a:hover {
+  color: var(--text-color);
+}
+
+button:hover {
+  color: var(--text-color);
+}
+
+.side-container .small-text:hover {
+  color: var(--text-color);
+}
+
+.square-side:hover .side-elements {
+  color: var(--text-color);
+}
+
+.bottom-container .small-text:hover {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+.top-section button:hover {
+  transform: scale(1.1);
+}
+
+.banner-c .fa-circle-play:hover {
+  transform: scale(1.5);
 }
