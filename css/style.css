@@ -317,3 +317,29 @@ button:hover {
 .white-bar:hover + .circle {
   display: block;
 }
+
+.col-xs-1-2:hover img {
+  opacity: 0.5;
+}
+
+.cover {
+  position: relative;
+}
+
+.col-xs-1-2 .play {
+  display: none;
+}
+
+.play {
+  font-size: 4rem;
+  color: var(--text-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -30px;
+  margin-top: -35px;
+}
+
+.col-xs-1-2:hover .play {
+  display: block;
+}
