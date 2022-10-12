@@ -4,6 +4,12 @@
     width: 100%;
   }
 
+  .name-container .small-text,
+  .name-container .bold-text,
+  hr {
+    display: block;
+  }
+
   .side-elements {
     align-items: center;
     display: flex;

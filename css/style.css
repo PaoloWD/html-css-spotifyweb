@@ -60,6 +60,12 @@ ul {
   display: none;
 }
 
+.name-container .small-text,
+.name-container .bold-text,
+hr {
+  display: none;
+}
+
 .small-text {
   font-size: 0.7rem;
 }
