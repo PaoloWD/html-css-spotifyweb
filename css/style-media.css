@@ -1,0 +1,43 @@
+@media screen and (min-width: 568px) {
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  .side-elements {
+    align-items: center;
+    display: flex;
+  }
+
+  .playlist-elements {
+    display: block;
+  }
+
+  .logo-container .small-text {
+    display: block;
+  }
+
+  .side-container {
+    text-align: start;
+    width: 150px;
+  }
+
+  .large-logo {
+    display: block;
+    padding-bottom: 2rem;
+  }
+  .small-logo {
+    display: none;
+  }
+
+  .square-side {
+    color: var(--small-color-text);
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}

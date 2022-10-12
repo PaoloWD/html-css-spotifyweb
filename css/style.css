@@ -1,0 +1,119 @@
+:root {
+  --side-color: #000000;
+  --text-color: white;
+  --small-color-text: #717171;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo-container .small-logo img {
+  width: 30px;
+}
+
+.main-container {
+  display: flex;
+  width: 100vw;
+}
+
+.section-container {
+  flex-grow: 1;
+  background-color: red;
+  height: calc(100vh - 100px);
+}
+
+.side-container {
+  padding: 0.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  background-color: var(--side-color);
+  color: var(--text-color);
+  flex-shrink: 0;
+}
+
+.bottom-container {
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.icon,
+.small-text {
+  padding-bottom: 0.5rem;
+  color: var(--small-color-text);
+}
+
+.logo-container .small-text {
+  display: none;
+}
+
+.small-text {
+  font-size: 0.7rem;
+}
+
+.side-elements {
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.playlist-container {
+  flex-grow: 1;
+  padding: 1rem 0;
+  overflow: auto;
+}
+
+.playlist-elements {
+  display: none;
+}
+
+.bold-text {
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+.small-icon {
+  font-size: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: var(--small-color-text);
+}
+
+.normal-text {
+  color: var(--small-color-text);
+}
+
+.small-logo {
+  padding: 0.5rem 0;
+}
+
+.large-logo {
+  display: none;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+hr {
+  color: var(--small-color-text);
+}
+
+.white {
+  color: var(--text-color);
+}
