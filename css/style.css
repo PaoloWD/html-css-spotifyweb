@@ -5,6 +5,7 @@
   --top-section-color: #191925;
   --main-section-color: #272b35;
   --bottom-container-color: #383838;
+  --color-bar-bottom-hover: #bdef60;
 }
 
 * {
@@ -263,6 +264,10 @@ button {
   display: inline-block;
 }
 
+.banner-sx {
+  padding: 0 0.5rem;
+}
+
 .grow-1 {
   flex-grow: 1;
 }
@@ -298,4 +303,17 @@ button:hover {
 
 .banner-c .fa-circle-play:hover {
   transform: scale(1.5);
+}
+
+.white-bar:hover {
+  border: 1px solid var(--color-bar-bottom-hover);
+}
+
+.circle {
+  display: none;
+  color: var(--text-color);
+}
+
+.white-bar:hover + .circle {
+  display: block;
 }
