@@ -292,6 +292,8 @@ button:hover {
 
 .side-container .small-text:hover {
   color: var(--text-color);
+  animation-name: side-link;
+  animation-duration: 5s;
 }
 
 .square-side:hover .side-elements {
@@ -355,4 +357,19 @@ button:hover {
 }
 
 .animation {
+}
+
+@keyframes side-link {
+  0% {
+    color: var(--small-color-text);
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
 }
