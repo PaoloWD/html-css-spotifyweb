@@ -292,8 +292,10 @@ button:hover {
 
 .side-container .small-text:hover {
   color: var(--text-color);
-  animation-name: side-link;
+  position: relative;
+  animation-name: left-right;
   animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
 .square-side:hover .side-elements {
@@ -356,7 +358,9 @@ button:hover {
   min-width: 200px;
 }
 
-.animation {
+.animation:hover {
+  animation-name: side-link;
+  animation-duration: 5s;
 }
 
 @keyframes side-link {
@@ -371,5 +375,36 @@ button:hover {
   }
   100% {
     color: green;
+  }
+}
+
+@keyframes left-right {
+  0% {
+    color: var(--small-color-text);
+    left: 0;
+    top: 0;
+  }
+
+  25% {
+    color: yellow;
+    left: 15px;
+    top: 0;
+  }
+
+  50% {
+    color: red;
+    left: 0;
+    top: 0;
+  }
+
+  75% {
+    color: yellow;
+    left: 15px;
+    top: 0;
+  }
+  100% {
+    color: var(--small-color-text);
+    left: 0;
+    top: 0;
   }
 }
