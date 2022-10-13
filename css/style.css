@@ -217,8 +217,7 @@ button {
 }
 
 .col-xs-1-2 {
-  width: 40%;
-  flex-grow: 1;
+  flex-basis: calc((100% - (0.5rem * 1)) / 2);
 }
 
 .txt-central {
