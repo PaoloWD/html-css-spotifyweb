@@ -109,6 +109,7 @@ hr {
   flex-grow: 1;
   padding: 1rem 0;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 .playlist-elements {
@@ -387,7 +388,7 @@ button:hover {
 
   25% {
     color: yellow;
-    left: 15px;
+    left: 25px;
     top: 0;
   }
 
@@ -399,7 +400,7 @@ button:hover {
 
   75% {
     color: yellow;
-    left: 15px;
+    left: 25px;
     top: 0;
   }
   100% {
