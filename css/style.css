@@ -195,7 +195,7 @@ button {
 }
 
 .bottom-container .banner-dx .container {
-  width: 10%;
+  display: none;
 }
 
 .bottom-container .container {

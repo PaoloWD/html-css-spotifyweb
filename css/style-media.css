@@ -45,6 +45,7 @@
 
   .bottom-container .banner-dx .container {
     width: 20%;
+    display: flex;
   }
 }
 
