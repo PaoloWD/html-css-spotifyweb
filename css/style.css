@@ -433,3 +433,9 @@ button:hover {
   overflow-x: auto;
   flex-wrap: nowrap;
 }
+
+.radius {
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
